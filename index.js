@@ -32,3 +32,10 @@ if(longestName === hacker1){
 
 
 // Iteration 3: Loops
+let driverSpelled = ""
+
+for (i = 0; i < hacker1.length; i++){
+    driverSpelled += hacker1[i].toUpperCase() + " ";
+}
+
+console.log(driverSpelled);
