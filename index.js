@@ -1,7 +1,7 @@
 // Iteration 1: Names and Input
 const hacker1 = "Tomás"
 console.log(`The driver's name is ${hacker1}`);
-const hacker2 = "Èric"
+const hacker2 = "Éric"
 console.log(`The navigator's name is ${hacker2}`);
 const hacker3 = "Roxana"
 console.log(`The navigator's name is ${hacker3}`);
@@ -39,3 +39,38 @@ for (i = 0; i < hacker1.length; i++){
 }
 
 console.log(driverSpelled);
+let navigator1Reverse = ""
+for (i = hacker2.length -1; i >=0; i--){
+    navigator1Reverse +=hacker2[i];
+    
+}
+console.log(navigator1Reverse);
+
+let navigator2Reverse = ""
+for (i = hacker3.length -1; i >=0; i--){
+    navigator2Reverse +=hacker3[i];
+    
+}
+console.log(navigator2Reverse);
+
+
+
+console.log(hacker1.localeCompare(hacker2));
+
+if (hacker1.localeCompare(hacker2) === (-1)){
+    console.log("the driver's name goes first.");
+    
+} else if (hacker1.localeCompare(hacker2) === (1) ){
+    console.log("Yo the navigator goes first definitely")
+
+    
+}else {console.log("What?! you bouth have the same name?");
+}
+
+
+
+
+
+
+
+
