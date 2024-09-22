@@ -39,8 +39,7 @@ for (i = 0; i < hacker1.length; i++){
 }
 
 console.log(driverSpelled);
-<<<<<<< HEAD
-=======
+
 let navigator1Reverse = ""
 for (i = hacker2.length -1; i >=0; i--){
     navigator1Reverse +=hacker2[i];
@@ -68,12 +67,3 @@ if (hacker1.localeCompare(hacker2) === (-1)){
     
 }else {console.log("What?! you bouth have the same name?");
 }
-
-
-
-
-
-
->>>>>>> 9336d0820babbbbc326f428f1ac0ea8bcb88c121
-
-
